@@ -3,32 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BHM മോട്ടിവേഷൻ സംഗമം</title>
+    <title>BHM മോട്ടിവേഷൻ സംഗമം രജിസ്ട്രേഷൻ</title>
     <style>
-        body { font-family: sans-serif; background-color: #f4f7f6; margin: 0; padding: 0; text-align: center; }
-        .header { background-color: #1a5f3d; color: white; padding: 30px 10px; }
-        .header h1 { margin: 0; font-size: 24px; }
-        .header p { margin: 5px 0; font-size: 14px; }
-        .container { max-width: 650px; margin: auto; padding: 10px; }
-        /* ഫോം കാണുന്നില്ലെങ്കിൽ ഈ ബട്ടൺ ഉപകരിക്കും */
-        .btn-link { display: inline-block; margin: 15px 0; padding: 12px 20px; background: #1a5f3d; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
-        iframe { width: 100%; height: 850px; border: none; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f6; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            justify-content: center; 
+        }
+        .main-wrapper { 
+            max-width: 600px; 
+            width: 100%; 
+            background: white; 
+            min-height: 100vh; 
+            box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+        }
+        /* മുകളിലെ പച്ച ഹെഡർ ഡിസൈൻ */
+        .top-header { 
+            background-color: #1a5f3d; 
+            color: white; 
+            padding: 40px 20px; 
+            text-align: center; 
+        }
+        .top-header h1 { margin: 0; font-size: 26px; letter-spacing: 1px; }
+        .top-header p { margin: 10px 0 0; font-size: 16px; opacity: 0.9; }
+        
+        .form-section { padding: 10px; }
+        
+        iframe { 
+            width: 100%; 
+            height: 900px; 
+            border: none; 
+            border-radius: 10px;
+        }
+        
+        .footer-info { 
+            text-align: center; 
+            padding: 25px; 
+            font-weight: bold; 
+            color: #1a5f3d; 
+            background: #f9f9f9;
+            border-top: 1px solid #eee;
+            line-height: 1.6;
+        }
+        /* ഫോം ലോഡ് ആയില്ലെങ്കിൽ ഉപയോഗിക്കാനുള്ള ബട്ടൺ */
+        .direct-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #1a5f3d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="header">
+<div class="main-wrapper">
+    <div class="top-header">
         <h1>WAKE UP CALL</h1>
         <p>മോട്ടിവേഷൻ സംഗമം രജിസ്ട്രേഷൻ</p>
-        <p>ബദ്‌റുൽ ഹുദ മദ്രസ, പൊറോപ്പാട്</p>
+        <p style="font-size: 14px;">ബദ്‌റുൽ ഹുദ മദ്രസ, പൊറോപ്പാട്</p>
     </div>
 
-    <div class="container">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScP9Z8fXk_hZkG0YvU5tqN6PzD0K9X_8u3Lp6L0S5nN-L8X9Q/viewform?embedded=true">Loading…</iframe>
+    <div class="form-section">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpv-r9A7R1M2D1eXpQ9-mK2B7Ym3h5S7L1Xv-Y_9wX-K-A/viewform?embedded=true">Loading…</iframe>
         
-        <p style="margin-top:20px;">ഫോം ലോഡ് ആയില്ലെങ്കിൽ താഴെ ക്ലിക്ക് ചെയ്യുക:</p>
-        <a href="https://forms.gle/YGVrGVHhgnBxh8nX8" class="btn-link">രജിസ്റ്റർ ചെയ്യാൻ ഇവിടെ അമർത്തുക</a>
+        <div style="text-align: center; padding: 20px;">
+            <p style="font-size: 14px; color: #666;">ഫോം ഇവിടെ കാണാൻ സാധിക്കുന്നില്ലെങ്കിൽ താഴെ ക്ലിക്ക് ചെയ്യുക:</p>
+            <a href="https://forms.gle/DQQ7wenZJa87XxG79" class="direct-link">രജിസ്റ്റർ ചെയ്യാൻ ഇവിടെ അമർത്തുക</a>
+        </div>
     </div>
+
+    <div class="footer-info">
+        BADRUL HUDA MADRASA, POROPPAD <br>
+        <span style="font-size: 12px; font-weight: normal; color: #555;">Contact: 8590573832</span>
+    </div>
+</div>
 
 </body>
 </html>
