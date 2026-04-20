@@ -3,85 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BHM മോട്ടിവേഷൻ സംഗമം രജിസ്ട്രേഷൻ</title>
+    <title>BHM മോട്ടിവേഷൻ സംഗമം</title>
     <style>
         body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            background-color: #f4f7f6; 
+            font-family: 'Segoe UI', sans-serif; 
+            background-color: #f0f4f2; 
             margin: 0; 
-            padding: 0; 
             display: flex; 
             justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            text-align: center;
         }
-        .main-wrapper { 
-            max-width: 600px; 
-            width: 100%; 
+        .card { 
             background: white; 
-            min-height: 100vh; 
-            box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+            padding: 40px 20px; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+            max-width: 400px; 
+            width: 90%; 
         }
-        /* മുകളിലെ പച്ച ഹെഡർ ഡിസൈൻ */
-        .top-header { 
+        .icon { font-size: 50px; color: #1a5f3d; margin-bottom: 20px; }
+        h1 { color: #1a5f3d; margin: 0; font-size: 24px; }
+        p { color: #555; margin: 15px 0 25px; line-height: 1.6; }
+        .reg-button { 
+            display: block; 
             background-color: #1a5f3d; 
             color: white; 
-            padding: 40px 20px; 
-            text-align: center; 
-        }
-        .top-header h1 { margin: 0; font-size: 26px; letter-spacing: 1px; }
-        .top-header p { margin: 10px 0 0; font-size: 16px; opacity: 0.9; }
-        
-        .form-section { padding: 10px; }
-        
-        iframe { 
-            width: 100%; 
-            height: 900px; 
-            border: none; 
-            border-radius: 10px;
-        }
-        
-        .footer-info { 
-            text-align: center; 
-            padding: 25px; 
+            text-decoration: none; 
+            padding: 18px; 
+            border-radius: 12px; 
+            font-size: 18px; 
             font-weight: bold; 
-            color: #1a5f3d; 
-            background: #f9f9f9;
-            border-top: 1px solid #eee;
-            line-height: 1.6;
+            transition: 0.3s;
         }
-        /* ഫോം ലോഡ് ആയില്ലെങ്കിൽ ഉപയോഗിക്കാനുള്ള ബട്ടൺ */
-        .direct-link {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 20px;
-            background-color: #1a5f3d;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 14px;
-        }
+        .reg-button:active { transform: scale(0.95); }
+        .footer { margin-top: 30px; font-size: 12px; color: #888; }
     </style>
 </head>
 <body>
 
-<div class="main-wrapper">
-    <div class="top-header">
-        <h1>WAKE UP CALL</h1>
-        <p>മോട്ടിവേഷൻ സംഗമം രജിസ്ട്രേഷൻ</p>
-        <p style="font-size: 14px;">ബദ്‌റുൽ ഹുദ മദ്രസ, പൊറോപ്പാട്</p>
-    </div>
+<div class="card">
+    <div class="icon">✨</div>
+    <h1>WAKE UP CALL</h1>
+    <p>ബദ്‌റുൽ ഹുദ മദ്രസ പൊറോപ്പാട് സംഘടിപ്പിക്കുന്ന മോട്ടിവേഷൻ സംഗമം രജിസ്ട്രേഷൻ ആരംഭിച്ചു.</p>
+    
+    <a href="https://forms.gle/DQQ7wenZJa87XxG79" class="reg-button">ഇവിടെ രജിസ്റ്റർ ചെയ്യുക</a>
 
-    <div class="form-section">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpv-r9A7R1M2D1eXpQ9-mK2B7Ym3h5S7L1Xv-Y_9wX-K-A/viewform?embedded=true">Loading…</iframe>
-        
-        <div style="text-align: center; padding: 20px;">
-            <p style="font-size: 14px; color: #666;">ഫോം ഇവിടെ കാണാൻ സാധിക്കുന്നില്ലെങ്കിൽ താഴെ ക്ലിക്ക് ചെയ്യുക:</p>
-            <a href="https://forms.gle/DQQ7wenZJa87XxG79" class="direct-link">രജിസ്റ്റർ ചെയ്യാൻ ഇവിടെ അമർത്തുക</a>
-        </div>
-    </div>
-
-    <div class="footer-info">
-        BADRUL HUDA MADRASA, POROPPAD <br>
-        <span style="font-size: 12px; font-weight: normal; color: #555;">Contact: 8590573832</span>
+    <div class="footer">
+        BADRUL HUDA MADRASA, POROPPAD<br>Contact: 8590573832
     </div>
 </div>
 
